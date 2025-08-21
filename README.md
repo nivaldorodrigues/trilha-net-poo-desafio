@@ -20,3 +20,17 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+--------------------------------------------------------------------------------------------
+##Atualizações realizadas no código
+
+Implementação da classe abstrata Smartphone:
+Criada a classe base Smartphone com propriedades comuns (Número, Modelo, IMEI, Memória) e métodos para ligar, receber ligação e instalar aplicativos. O método InstalarAplicativo foi definido como abstrato, exigindo implementação nas classes filhas.
+
+Criação das classes Nokia e Iphone:
+Ambas as classes herdam de Smartphone e implementam suas próprias versões do método InstalarAplicativo, exibindo mensagens específicas para cada marca.
+
+Ajuste no Program.cs:
+O arquivo principal foi atualizado para criar instâncias de Nokia e Iphone, demonstrando o uso dos métodos implementados, como ligar, receber ligação e instalar aplicativos.
+
+Essas alterações garantem o uso correto dos conceitos de orientação a objetos, como abstração, herança e polimorfismo, conforme solicitado no desafio.
